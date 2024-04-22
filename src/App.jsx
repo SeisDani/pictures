@@ -2,7 +2,6 @@ import { useState } from 'react'
 import SearchBar from './components/SearchBar'
 import ImageList from './components/ImageList'
 import './App.css'
-import searchImage from './api'
 
 function App() {
   const [Images, setImage] = useState([])
