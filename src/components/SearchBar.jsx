@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import './SearchBar.css'
 function SearchBar({ onSubmit }){
     const [term, setTerm] = useState('')
 
@@ -19,7 +19,7 @@ function SearchBar({ onSubmit }){
     }
 
     return(
-        <div>
+        <div className="search-bar">
             <h1>Search Bar</h1>
             <form onSubmit={handleFormSubmit}>
                 Confirma tu busqueda: {term}
