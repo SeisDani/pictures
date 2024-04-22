@@ -4,7 +4,7 @@ import ImageList from './components/ImageList'
 import './App.css'
 
 function App() {
-  const [Images, setImage] = useState([])
+  const [Images, setImages] = useState([])
 
   const handleSubmit = async(term) => {
     console.log('usted esta buscando con:', term)
@@ -13,7 +13,7 @@ function App() {
     console.log('coco')
     console.log(result)
 
-    setImage(result)
+    setImages(result)
 
   }
   
