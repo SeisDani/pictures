@@ -10,9 +10,6 @@ function App() {
     console.log('usted esta buscando con:', term)
     const result = await searchImage(term)
 
-    console.log('coco')
-    console.log(result)
-
     setImages(result)
 
   }
